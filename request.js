@@ -1,13 +1,6 @@
 let forecast = document.getElementById("forecast-el")
-//const lat = document.getElementById("lat-el")
-//onst long = document.getElementById("long-el")
 const searchBtn = document.getElementById("search-btn")
-//const locationUrl = document.getElementById("location-el")
-//console.log(locationUrl)
-//console.log(forecast)
 clicked = false
-//locationUrl = 'https://www.google.com/maps/@39.9472188,-75.1630782,16z'
-//console.log(locationUrl.value)
 
 searchBtn.addEventListener("click", function() {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
@@ -51,8 +44,3 @@ function deleteRender() {
     forecast.textContent = ""
 }
 
-
-
-//fetch('https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=AIzaSyBhIoMD_rT5gwci7zRQJPdkP9gvteBHEhE')
-    //.then(res => console.log(res))
-    //.then(data => console.log(data))
