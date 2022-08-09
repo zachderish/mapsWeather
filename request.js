@@ -51,8 +51,3 @@ function deleteRender() {
     forecast.textContent = ""
 }
 
-
-
-//fetch('https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=AIzaSyBhIoMD_rT5gwci7zRQJPdkP9gvteBHEhE')
-    //.then(res => console.log(res))
-    //.then(data => console.log(data))
